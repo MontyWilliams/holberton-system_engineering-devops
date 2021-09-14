@@ -1,2 +1,2 @@
 #!/bin/baish
-ls -al / ../ /boot 
+ls -al . .. /boot 
