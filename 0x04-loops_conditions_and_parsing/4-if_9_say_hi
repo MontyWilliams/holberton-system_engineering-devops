@@ -6,6 +6,6 @@ echo "Holberton School"
  i=$((i+ 1))
 if  [[ "$i" == '9' ]];
 then
-	echo "Hi"
+	echo -e "Holberton School \nHi"
 fi
 done
