@@ -4,9 +4,10 @@ i=0
 while [ $i -lt 10 ]
 do
 echo "Holberton School"
- i=$((i+ 1))
-if  [[ "$i" == '9' ]];
+ ((i++))
+if  [[ "$i" == "8" ]];
 then
-	echo -e "Holberton School \nHi"
+   echo -e "Holberton School \nHi"
+   ((i++))
 fi
 done
