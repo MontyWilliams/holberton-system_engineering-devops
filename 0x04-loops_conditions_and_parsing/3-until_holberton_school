@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 ##use until to iterate and print 10 times##
 i=0
-until [ $i -gt 10 ]
+until [ $i -eq 10 ]
 do echo "Holberton School"
 	i=$((i + 1))
 done
