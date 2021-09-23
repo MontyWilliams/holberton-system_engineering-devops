@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+##COUNT AND PRINT
+c=0
+while [ $c -le 20 ]
+do 
+	echo "$c"
+	((c++))
+	case $c in
+		4) echo "bad luck from China";;
+			9) echo "bad luck from Japan";;
+			17) echo ""bad luck from Italy;;
+		esac
+
+	
+done
