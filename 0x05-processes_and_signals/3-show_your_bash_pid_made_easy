@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 #use prep wit grep to display pid, procces name if they contain bash
-pgrep -a . | grep -w bash
+pgrep -l . | grep -w bash
