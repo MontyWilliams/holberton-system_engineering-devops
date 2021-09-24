@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+hour=0
+minutes=1
+while [ $hour -le 12 ];do	#call var hour with $
+  echo "Hour: $hour" 
+
+while [ $minutes -lt 60 ]; do  #call a variable use $
+	echo $minutes
+	((minutes++))
+done
+((hour++))
+minutes=1
+done
