@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#kills script and prints output on termination signal
+while :
+do
+	echo "To infinity and beyond"
+	sleep 2
+
+
+
+
+function handler() {
+	echo "I am invincible!!!"
+}
+trap handler SIGTERM
+done
