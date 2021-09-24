@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+#if loop with test conditions
+if [ -e holbertonschool ] 
+then echo "holbertonschool file exists"
+elif [ ! -e holbertonschool ]
+then echo "holbertonschool file dose not exist";
+fi
+
+
+if  [ -e holbertonschool ] && [ ! -s holbertonschool ] 
+then echo "holbertonschool file is empty"
+elif [ -e holbertonschool ] && [ -s holbertonschool ] 
+then echo "holbertonschool file is not empty"
+elif [ -e holbertonschool ] && [ -f holbertonschool ]
+then echo "holbertonschool is a regular file"
+else [ -e holbertonschool ] && [ ! -f holbertonschool ];
+fi		
