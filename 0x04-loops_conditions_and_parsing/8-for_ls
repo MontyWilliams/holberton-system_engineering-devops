@@ -1,3 +1,7 @@
 #!/usr/bin/env bash
-# display entire file content with only a few areas show
-
+# display entire file content with only a few areas
+file=$(ls)
+for i in $file
+do echo "$i" | cut -d- -f2- 
+done
+: "$file"
