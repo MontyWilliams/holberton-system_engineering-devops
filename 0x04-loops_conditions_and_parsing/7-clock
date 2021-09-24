@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#nest a while loop within another
 hour=0
 minutes=1
 while [ $hour -le 12 ];do	#call var hour with $
