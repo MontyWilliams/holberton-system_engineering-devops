@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 ##while loop and if statement##
-i=1
+i=0
 while [ $i -lt 10 ]
 do
 echo "Holberton School"
-if  [ $i == 8 ];
+ ((i++))
+if  [ $i == 9 ];
 then
-   echo -e "Holberton School \nHi"
+   echo  "Hi"
 fi
-   ((i++))
-done
+  done
