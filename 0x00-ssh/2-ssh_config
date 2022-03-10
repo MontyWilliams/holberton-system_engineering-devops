@@ -1,9 +1,5 @@
-Include /etc/ssh/ssh_config.d/*.conf
-# SSH conf for Webserver API connection
-
-Host 184.72.172.55
-    IdentityFile ~/.ssh/school
-    PasswordAuthentication no
-    SendEnv LANG LC_*
-    HashKnownHosts yes
-    GSSAPIAuthentication yes
+Host *
+     HostName 100.26.28.112
+     User ubuntu
+     IdentityFile ~/.ssh/school
+     PasswordAuthentication no
