@@ -1,5 +1,5 @@
 Include /etc/ssh/ssh_config.d/*.conf
-# SSH CONF for Webserver API connection
+# SSH conf for Webserver API connection
 
 Host 184.72.172.55
     IdentityFile ~/.ssh/school
